@@ -24,11 +24,11 @@ Es ideal para automatizar o facilitar el manejo seguro de archivos en entornos s
 
 
 - Pasos dentro del programa:
-  - Ejecutar [Paso 4](#paso-4-agregar-archivos-a-procesar-en-request)
+  - Ejecutar [Paso 4: Agregar archivos a procesar en 'request'](#paso-4-agregar-archivos-a-procesar-en-request)
   - Ingresar el nombre del perfil cuando se solicite.
     - Si lo dejás vacío, se usará el perfil default. 
   - El sistema procesará los archivos detectados.
-  - Ejecutar [Paso 5](#paso-5-extraer-archivos-de-response)
+  - Ejecutar [Paso 5: Extraer archivos de 'response'](#paso-5-extraer-archivos-de-response)
   - Podrás repetir el proceso o salir del programa.
 
 ### 🔹Paso 4: Agregar archivos a procesar en 'request'
