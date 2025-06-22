@@ -6,32 +6,32 @@ Es ideal para automatizar o facilitar el manejo seguro de archivos en entornos s
 
 ***💡 NOTA: Se puede utilizar perfil default, de ser el caso skip paso 1.***
 
-### 🔹<span style="color:orange">Paso 1: Crear paths/carpetas</span>
+### 🔹Paso 1: Crear paths/carpetas
 - Crear/agregar paths con el nombre del perfil, ejemplo de estructura:
   - keys/<span style="color:green">[Nombre del perfil]</span>/
   - files/<span style="color:green">[Nombre del perfil]</span>/request/
   - files/<span style="color:green">[Nombre del perfil]</span>/response/
 
-### 🔹<span style="color:orange">Paso 2: Agregar/Cambiar keys</span>
+### 🔹Paso 2: Agregar/Cambiar keys
 - Agregar/cambiar las correspondientes keys del perfil, ejemplo:
     - keys/<span style="color:green">[Nombre del perfil]</span>/private.key
     - keys/<span style="color:green">[Nombre del perfil]</span>/public.key
     - keys/<span style="color:green">[Nombre del perfil]</span>/passphrase.txt
 
-### 🔹<span style="color:orange">Paso 3: Ejecutar main.go</span>
+### 🔹Paso 3: Ejecutar main.go
 - Ejecutar programa desde:
   - <span style="color:green">app/main.go</span>
 
 
 - Pasos dentro del programa:
-  - Ejecutar [Paso 4](#span-stylecolororangepaso-4-agregar-archivos-a-procesar-en-requestspan)
+  - Ejecutar [Paso 4](#paso-4-agregar-archivos-a-procesar-en-request)
   - Ingresar el nombre del perfil cuando se solicite.
     - Si lo dejás vacío, se usará el perfil default. 
   - El sistema procesará los archivos detectados.
-  - Ejecutar [Paso 5](#span-stylecolororangepaso-5-extraer-archivos-de-responsespan)
+  - Ejecutar [Paso 5](#paso-5-extraer-archivos-de-response)
   - Podrás repetir el proceso o salir del programa.
 
-### 🔹<span style="color:orange">Paso 4: Agregar archivos a procesar en 'request'</span>
+### 🔹Paso 4: Agregar archivos a procesar en 'request'
 - Agregar los archivos a procesar en request:
   - files/<span style="color:green">[Nombre del perfil]</span>/request/<span style="color:green">[archivos.txt]</span>
   - files/<span style="color:green">[Nombre del perfil]</span>/request/<span style="color:green">[archivos.pgp]</span>
@@ -41,7 +41,7 @@ Es ideal para automatizar o facilitar el manejo seguro de archivos en entornos s
   - .pgp → serán desencriptados
 
 
-### 🔹<span style="color:orange">Paso 5: Extraer archivos de 'response'</span>
+### 🔹Paso 5: Extraer archivos de 'response'
 - Una vez terminado el proceso, retirar sus archivos desde:
   - files/<span style="color:green">[Nombre del perfil]</span>/response/<span style="color:green">[archivos.txt]</span>
   - files/<span style="color:green">[Nombre del perfil]</span>/response/<span style="color:green">[archivos.pgp]</span>
