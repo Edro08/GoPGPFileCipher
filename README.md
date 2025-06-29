@@ -1,6 +1,6 @@
 ## 💻 go-pgp-file-cipher
 
-> **Descripción:** Aplicación de línea de comandos escrita en Go que permite encriptar y desencriptar archivos utilizando cifrado PGP.<br>
+**Descripción:** Aplicación de línea de comandos escrita en Go que permite encriptar y desencriptar archivos utilizando cifrado PGP.<br>
 Soporta la gestión de múltiples perfiles, cada uno con sus propias claves públicas, privadas y passphrase.<br>
 Es ideal para automatizar o facilitar el manejo seguro de archivos en entornos segmentados por cliente, grupo o entorno.<br>
 
